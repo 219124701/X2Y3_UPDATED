@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    
   }
   
   #particles-js {
@@ -142,9 +143,18 @@ footer div p a:hover {
   }
   
   header {
-    background-color: #333; 
+    background-color: black; 
     color: #fff; 
     padding: 10px 0; 
+    
+  }
+  header{
+   
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+   
   }
   
   .header-container {
@@ -322,5 +332,9 @@ footer{
       font-size: 14px;
   }
 }
-
+.coding-gif {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  margin-left: 20px; /* Adds space to the left of the image */
+  
+}
 
