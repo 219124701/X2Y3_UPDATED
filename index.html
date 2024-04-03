@@ -15,234 +15,7 @@
  <!--Link for creating Favicon-->
  <link rel="icon" type="image/x-icon" href="images/FavIcon.jpeg">
  <link rel="stylesheet" href="styles.css">
- <style>
-  .popup-container {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-}
-
-.popup-container h2 {
-    color: #333;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    color: #888;
-}
-
-.form-container {
-    text-align: center;
-}
-
-.form-container h2 {
-    color: #333; /* Adjust the color as needed */
-}
-
-.form-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-}
-  .testimonial {
-  
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px;
-}
-
-.testimonial .name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.testimonial img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.testimonial .stars {
-    color: #fdd835;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.testimonial p {
-    font-size: 16px;
-    margin-bottom: 0;
-    color:white;
-}
-
-/* Centering Rows and Columns */
-.inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.row {
-    display: flex; /* This makes the testimonials align side by side */
-    justify-content: center; /* This centers the testimonials horizontally within the row */
-    flex-wrap: wrap; /* This allows the testimonials to wrap to the next line if there isn't enough space */
-    width: 100%; /* Ensures the row takes the full width */
-}
-
-.col {
-    flex: 1; /* This allows the columns to grow and take up equal space */
-    max-width: 300px; /* Set a max-width for the columns */
-    margin: 10px; /* Add some margin around each column */
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .testimonial {
-        padding: 15px;
-    }
-
-    .testimonial .name {
-        font-size: 16px;
-    }
-
-    .testimonial img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .testimonial .stars {
-        font-size: 18px;
-    }
-
-    .testimonial p {
-        font-size: 14px;
-    }
-}
-
-#loginPopup{
-  display: none;
-  
-}
-
-.login-dark form {
-  z-index: 1;
-  max-width:320px;
-  width:90%;
-  background-color:#1e2833;
-  padding:40px;
-  border-radius:4px;
-  transform:translate(-50%, -50%);
-  position:absolute;
-  top:50%;
-  left:50%;
-  color:#fff;
-  box-shadow:3px 3px 4px rgba(0,0,0,0.2);
-  
-}
-
-.login-dark .illustration {
-  text-align:center;
-  padding:15px 0 20px;
-  font-size:100px;
-  color:#6AA75A;;
-}
-
-.login-dark form .form-control {
-  background:none;
-  border:none;
-  border-bottom:1px solid #434a52;
-  border-radius:0;
-  box-shadow:none;
-  outline:none;
-  color:inherit;
-}
-
-.login-dark form .btn-primary {
-  background:#6AA75A;;
-  border:none;
-  border-radius:4px;
-  padding:11px;
-  box-shadow:none;
-  margin-top:26px;
-  text-shadow:none;
-  outline:none;
-  float: right;
-}
-
-.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
-  background:#214a80;
-  outline:none;
-}
-
-.login-dark form .forgot {
-  display:block;
-  text-align:center;
-  font-size:12px;
-  color:#6f7a85;
-  opacity:0.9;
-  text-decoration:none;
-}
-
-.login-dark form .forgot:hover, .login-dark form .forgot:active {
-  opacity:1;
-  text-decoration:none;
-}
-
-.login-dark form .btn-primary:active {
-  transform:translateY(1px);
-}
-
-
-
-
- /*========================================================*/
-
-/*
-styling the certificate
-*/
-
-.box:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-  color: aqua;
-  background-color: #1275c6;
-}
-
-.container {
-  display: flex; /* Use flexbox */
-  /*justify-content: space-around; /* Distribute items evenly */
-  align-items: center; /* Center items vertically */
-  text-align: center;
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-.box {
-  width: 300px;
-  height: 400px;
-  background-color: #0A1C2B;
-  margin: 5px;
-  border-radius: 5%;
-}
-
-/*=============*/
-
-  </style>
+ 
 </head>
 
 <body>
@@ -252,11 +25,11 @@ styling the certificate
         <nav class="nav-menu">
           <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="pricing.html">PRICING</a></li>
-            <li><a href="Bookings.html">BOOK US</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Services">SERVICES</a></li>
+            <li><a href="#Pricing">PRICING</a></li>
+            <li><a href="#BookUs">BOOK US</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
             <span class="text-center" style="padding-top: 40px;padding-bottom: 20px;padding-right: 30px;">
               <a href="#" onclick="openPopup()" class="more-btn" style="font-size: 16px;"><i class="fa fa-user" aria-hidden="true"></i> Login<i class="bx bx-chevron-right"></i></a>
             </span>
@@ -330,6 +103,22 @@ styling the certificate
   </div>
  
   </section>
+
+  <main style="margin-top: 4%;padding-left: 3%;padding-right: 3%;">
+    <div id="About">
+      <center>  <h1>About Us</h1>
+        <small>Est 2024</small></center>
+      <div class="container">
+  
+    <hr>
+    <span style="font-size: 150%"><p>Welcome to <strong><em>CodeMentor</em></strong>, is a platform 
+      dedicated to empowering aspiring coders by bridging the gap between ambition and expertise in programming. <br>
+      With personalized tutoring from experienced mentors, whether you're a beginner or an experienced developer,
+      CodeMentor offers a transformative learning experience to shape your future in the dynamic world of technology.</p>
+    </div>
+    </div>
+    </main>
+
 <section>
 <!-- </div>
     <div class="techstack" style="text-align: center;">
@@ -349,8 +138,9 @@ styling the certificate
     </div> -->
 
     <!--==========================BOX====================-->
-    <h3 style="text-align: center; margin-top: 7%; margin-bottom: 2%;">SERVICES</h3>
+    <h3 style="text-align: center; margin-top: 1%; margin-bottom: 1%;">SERVICES</h3>
 
+    <div id="Services">
       <div class="container">
 
         <div class="box">
@@ -417,6 +207,45 @@ styling the certificate
 <!--===================================BOXXXXXXXXX=================================-->
 </section>
 
+
+  <div id="Pricing">
+    <center>  <h1>Our Prices</h1></center>
+ 
+<section style="margin-left: 10%;">
+      <p>🌟 Supercharge Your Coding Journey with CodeMentor's Unbeatable Pricing Plans! 🚀
+        Are you ready to take your coding skills to the next level? <br>Look no further than CodeMentor, where we offer
+         flexible and affordable pricing plans designed to fit your budget and your goals.
+        </p>
+        
+        <h1>🔥 Beginner Plan:</h1>
+        <ul>
+          <li>Perfect for aspiring coders just starting their journey.</li>
+          <li>Access to foundational tutorials and learning resources.</li>
+          <li>Affordable monthly subscription.</li>
+        </ul>
+        
+        <h1>💡 Pro Plan:</h1>
+        <ul>
+          <li>Ideal for intermediate developers looking to refine their skills.</li>
+          <li>Personalized one-on-one mentoring sessions with industry experts.</li>
+          <li>Exclusive access to advanced coding challenges and projects.</li>
+          <li>Competitive pricing with monthly and yearly options.</li>
+        </ul>
+        
+        <h1>🚀 Premium Plan:</h1>
+         <ul>
+          <li>Tailored for seasoned professionals ready to excel in their careers.</li>
+          <li>VIP mentorship program with top-tier industry professionals.</li>
+          <li>Priority support and customized learning paths.</li>
+          <li>Exclusive workshops and networking opportunities.</li>
+          <li>Flexible payment options to suit your needs.</li>
+          <li>Join CodeMentor today and unlock the power of personalized learning at unbeatable prices.</li>
+          <li> Whether you're a beginner, a pro, or aiming for the stars, we have the perfect plan for you.</li>
+          <li>  Elevate your coding journey with CodeMentor and make your coding dreams a reality! 💻✨ #CodeWithConfidence</li>
+         </ul>
+         </div>
+        </section>
+
 <!--==Testmonials==-->
 <section> 
   <h1 style="text-align: center;">Testimonials</h1>
@@ -447,8 +276,54 @@ styling the certificate
     <span class="testimonial-author">~ Siwinile Mdani</span>
 </div>
 </div> 
+
 </section>
 <!--===End of Testimonial===-->
+
+<section style="margin-top: 6%;">
+  <div id="#BookUs">
+
+    <center>
+
+      <h1 style="text-align: center;">Book a Tutoring Session</h1>
+
+      <form id="form2">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+    
+        <label for="email2">Email Address:</label>
+        <input type="email" id="email2" name="email" required>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="subject">Choose Subject:</label> 
+        <select id="subject" name="subject" required>
+            <option value="C#">C#</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+        </select>
+    
+        <label for="date">Choose Date:</label>
+        <input type="date" id="date" name="date" required min="2024-02-15" max="2024-12-31">
+    
+        <label for="time">Choose Time:</label>
+        <select id="time" name="time" required>
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+        </select>
+    
+        <button type="button" onclick="submitForm('form2')">Book</button>
+    </form>
+
+    </center>
+
+  </div>
+</section>
+
     <footer>
       <div>
         <span style="margin-left: 3%;color:#6AA75A;"class="logo"><b>CODEMENTORS</b></span>
