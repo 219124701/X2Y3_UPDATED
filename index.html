@@ -179,7 +179,6 @@ styling the certificate
 .box {
   width: 300px;
   height: 300px;
-  background-color: #0A1C2B;
   margin: 5px;
   border-radius: 5%;
 }
@@ -219,7 +218,7 @@ styling the certificate
   </body>
   <section style="text-align: center; padding-top: 65px;">
   <!--Chris: I change the "class='banner'" to "id='particles-js'", to allow for the animation to work-->
-  <span style="background-color: black;" id="particles-js"></span>
+  <span style="background-color: #0A1C2B;" id="particles-js"></span>
  
   </html>
   <div class="login-dark" id="loginPopup">
@@ -302,11 +301,11 @@ styling the certificate
         </div> -->
     
         <!--==========================BOX====================-->
-        <h3 style="text-align: center; margin-top: 3%; margin-bottom: 3%;color:#6AA75A;font-size: 35px;">About Us</h3>
+        <h3 style="text-align: center; margin-top: 15px; margin-bottom: 5px;color:black;font-size: 35px;">About Us</h3>
     
           <div class="container" >
     
-            <div style="color:black;font-size: 22px;padding-bottom: 0px;">
+            <div style="color:black;font-size: 22px;">
               
               <p>Welcome to codementor, is a platform 
                 dedicated to empowering aspiring coders by bridging the gap between ambition and expertise in programming. 
@@ -327,7 +326,7 @@ styling the certificate
            <center>
             <figure>
               <a href="#" style="text-align: center; padding-top:400px;">
-                <img height="180px" width="160px" src="images/MasiyaZungu.jpg" alt="Masiya" ></a>
+                <img height="180px" width="160px" src="images/MasiyaZungu.jpg" alt="Masiya" class="imgTutor" ></a>
               <br><br><br>
               <figcaption>Masiya</figcaption>
             </figure>
@@ -337,7 +336,7 @@ styling the certificate
               <center>
                 <figure>
                   <a href="#" style="text-align: center; padding-top:400px;">
-                    <img height="180px" width="160px" src="images/Gogi.jpeg"alt="Gogi"></a>    
+                    <img height="180px" width="160px" src="images/Gogi.jpeg"alt="Gogi" class="imgTutor"></a>    
                     <br><br><b></b><br>
                     <figcaption>Gogi</figcaption>
                 </figure>
@@ -348,7 +347,7 @@ styling the certificate
               <center>
                 <figure>
                   <a href="#" style="text-align: center; padding-top:500px;">
-                  <img height="180px" width="160px" src="images/X.jpg"alt="Xola"></a>
+                  <img height="180px" width="160px" src="images/X.jpg"alt="Xola" class="imgTutor"></a>
                   <br><br><b></b><br>
                     <figcaption>Xola</figcaption>
                 </figure>
@@ -359,7 +358,7 @@ styling the certificate
               <center>
                 <figure>
                   <a href="#"style="text-align: center; padding-top:400px;">
-                  <img height="180px" width="160px"  src="images/Vuyokaz.jpeg"alt="Python"></a> 
+                  <img height="180px" width="160px"  src="images/Vuyokaz.jpeg"alt="Python" class="imgTutor"></a> 
                   <br><br><b></b><br>
                   <figcaption>Vuyokazi</figcaption>
                 </figure>
@@ -371,7 +370,7 @@ styling the certificate
               <center>
                 <figure>
                   <a href="#" style="text-align: center; padding-top:400px;">
-                  <img height="200px" width="160px" src="images/Cris.jpeg"alt="Chris"></a> 
+                  <img height="200px" width="160px" src="images/Cris.jpeg"alt="Chris" class="imgTutor"></a> 
                   <br><br><b></b><br>
                   <figcaption>Chris</figcaption>
                 </figure>
@@ -409,7 +408,7 @@ styling the certificate
     </div> -->
 
     <!--==========================BOX====================-->
-    <h3 style="text-align: center; margin-top: 7%; margin-bottom: 2%;">SERVICES</h3>
+    <h3 style="text-align: center; margin-top: 2%; margin-bottom: 2%;">SERVICES</h3>
 
       <div class="container">
 
@@ -478,8 +477,8 @@ styling the certificate
 </section>
 
 <!--==Testmonials==-->
-<section> 
-  <h1 style="text-align: center;">Testimonials</h1>
+<section style="background-color: white; padding-top: 15px; "> 
+  <h1 style="text-align: center; color: black; font-size: 35px; padding-bottom: 10px;">Testimonials</h1>
 <div class="testimonials-container">
   <div class="testimonial-card">
       <div class="testimonial-info">
@@ -498,6 +497,14 @@ styling the certificate
       <p>"The curriculum was comprehensive covering everything from basics to advance concepts and the hands-on approach made learning engage and effective."</p>
       <span class="testimonial-author">~ Chuma Raxothi</span>
   </div>
+  <div class="testimonial-card">
+    <div class="testimonial-info">
+        <img src="RC.png" alt="Customer 2">
+        <span class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    </div>
+    <p>"The curriculum was comprehensive covering everything from basics to advance concepts and the hands-on approach made learning engage and effective."</p>
+    <span class="testimonial-author">~ Chuma Raxothi</span>
+</div>
   <div class="testimonial-card" style="height: 235px;">
     <div class="testimonial-info">
         <img src="MS.jpeg" alt="Customer 2">
@@ -507,9 +514,12 @@ styling the certificate
     <span class="testimonial-author">~ Siwinile Mdani</span>
 </div>
 </div> 
+<br>
+<button id="top-up-btn" onclick="scrollToTop()" style="margin-left:1380px; width: 70px; height: 70px;  background-color: #6AA75A; border-radius: 100px; border: 10px 10px solid #6AA75A;" ><i class="fas fa-arrow-up"></i></button>   
+<br><br></br>
 </section>
 <!--===End of Testimonial===-->
-    <footer>
+    <footer style="background-color: #0A1C2B;">
       <div>
         <span style="margin-left: 3%;color:#6AA75A;"class="logo"><b>CODEMENTORS</b></span>
         <span style="margin-left: 3%;margin-right: 3%">&copy; </span> 2024

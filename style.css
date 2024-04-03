@@ -28,7 +28,8 @@ body {
   }
 
   .tutor-card {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #0A1C2B;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 255);
     margin: 10px;
@@ -586,4 +587,12 @@ border-radius: 5%;
 #Pricing, 
 #BookUs{
     padding: 100px 0;
+}
+
+
+.imgTutor{
+  border-radius: 50%;
+  background-color: #0A1C2B;
+
+
 }
